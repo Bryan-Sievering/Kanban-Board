@@ -1,0 +1,30 @@
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.column {
+  flex: 1;
+  background: #ebedef;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.task-list {
+  min-height: 200px;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: grab;
+}
+
+.cdk-drag-preview {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
